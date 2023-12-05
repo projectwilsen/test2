@@ -26,6 +26,18 @@ jobs:
         #     SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
         #     SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python initest2.py
+
+      - name: execute py script # run main.py
+        # env:
+        #     SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        #     SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python initest3.py
+
+      - name: execute py script # run main.py
+        # env:
+        #     SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        #     SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python initest4.py
           
       # - name: commit files
       #   run: |
